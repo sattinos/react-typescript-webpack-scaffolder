@@ -1,7 +1,8 @@
 [![rt_TS.png](https://s7.postimg.org/o7rbrc97v/rt_TS.png)](https://postimg.org/image/a1bkw3ycn/)
 
 # Scaffolder
-Scaffolder is a single bash script that sets up React, Typescript and Webpack for a new project.
+Scaffolder is a cross-platform (windows/mac/linux) node.js script that sets up React, Typescript and Webpack for a new project.
+
 
 Motivation:
 ===========
@@ -14,12 +15,12 @@ The Scaffolder will take care of that, and the generated project will work with 
 Prerequisites:
 ==============
 Node 9.x
-Bash shell
 
 How to use:
 ===========
 1. Clone the repository into empty folder.
-2. From bash shell run: ./scaffold_TS_RT.sh
+2. From bash shell run: 
+node scaffold-ts.rt.js
 
 Currently, the scaffolder supports Webpack 4 only.
 The generated project will contain the functionality:
@@ -31,10 +32,12 @@ The generated project will contain the functionality:
 
 
 Once the script is finished, you can use the commands:
-./devBuild.sh        # to build in dev mode
-./prodBuild.sh       # to build in production mode
-./serve.sh           # to run Webpack dev server in watch mode
-./clean.sh           # to clean up previous builds
+
+npm run devBuild           // to build in dev mode
+
+npm run prodBuild          // to build in production mode
+
+npm run serve              // to run webpack dev server in watch mode
 
 Remember: If you want to do something twice then automate it.
 
