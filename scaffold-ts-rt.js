@@ -382,7 +382,7 @@ console.log('>>>>> Production Packing <<<<<<<<');
 
 execSync('./node_modules/.bin/webpack --config webpack.prod.js', { stdio: 'inherit' });
 `;
-fs.writeFileSync('scripts/prodBuild.js', devBuildScript);
+fs.writeFileSync('scripts/prodBuild.js', prodBuildScript);
 
 const serveScript = `const rimraf = require('rimraf');
 const { execSync } = require('child_process');
@@ -405,8 +405,8 @@ const replaceLine = function (fileName, line, newLine) {
     fs.writeFileSync(fileName, newFile);
 };
 
-const scripts = `    "devBuild": "node scripts/devBuild.js",
-    "prodBuild": "node scripts/prodBuild.js",
+const scripts = `    "build:dev": "node scripts/devBuild.js",
+    "build:prod": "node scripts/prodBuild.js",
     "serve": "node scripts/serve.js"
 `;
 
@@ -417,9 +417,9 @@ console.log('Scaffolding is done.');
 console.log('===========================');
 console.log('Simply run the commands');
 console.log(`
-npm run devBuild           // to build in dev mode
-npm run prodBuild          // to build in production mode
-npm run serve              // to run webpack dev server in watch mode
+npm run build:dev           // to build in dev mode
+npm run build:prod          // to build in production mode
+npm run serve               // to run webpack dev server in watch mode
 ==================
 
 enjoy!

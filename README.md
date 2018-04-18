@@ -33,12 +33,9 @@ The generated project will contain the functionality:
 
 Once the script is finished, you can use the commands:
 
-npm run devBuild           // to build in dev mode
-
-npm run prodBuild          // to build in production mode
-
-npm run serve              // to run webpack dev server in watch mode
-
+npm run devBuild           // to build in dev mode<br />
+npm run prodBuild          // to build in production mode<br />
+npm run serve              // to run webpack dev server in watch mode<br />
 Remember: If you want to do something twice then automate it.
 
 Enjoy!
