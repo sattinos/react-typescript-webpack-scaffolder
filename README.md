@@ -1,4 +1,4 @@
-[![rt_TS.png](https://s7.postimg.org/o7rbrc97v/rt_TS.png)](https://postimg.org/image/a1bkw3ycn/)
+![logo.png](https://github.com/sattinos/react-typescript-webpack-scaffolder/blob/master/img/logo.png?raw=true)
 
 # react-typescript-webpack-scaffolder
 react-typescript-webpack-scaffolder is a cross-platform (windows/mac/linux) node.js script that sets up React, Typescript and Webpack for a new project.
