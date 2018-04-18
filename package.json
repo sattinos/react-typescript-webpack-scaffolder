@@ -10,7 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/sattinos/react-typescript-webpack-scaffolder.git"
   },
-  "keywords": [],
+  "keywords": [
+    "scaffolder",
+    "react+typescript+webpack scaffolder",
+    "react+typescript+webpack generator",
+    "web scaffolder",
+    "react scaffolder",
+    "react, typescript and webpack scaffolder"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
