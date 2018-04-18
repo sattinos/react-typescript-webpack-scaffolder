@@ -1,0 +1,20 @@
+{
+  "name": "react-typescript-webpack-scaffolder",
+  "version": "1.0.0",
+  "description": "[![rt_TS.png](https://s7.postimg.org/o7rbrc97v/rt_TS.png)](https://postimg.org/image/a1bkw3ycn/)",
+  "main": "scaffold-ts-rt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sattinos/react-typescript-webpack-scaffolder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sattinos/react-typescript-webpack-scaffolder/issues"
+  },
+  "homepage": "https://github.com/sattinos/react-typescript-webpack-scaffolder#readme"
+}
