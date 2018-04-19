@@ -1,11 +1,14 @@
 {
   "name": "react-typescript-webpack-scaffolder",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "react-typescript-webpack-scaffolder is a cross-platform (windows/mac/linux) node.js script that sets up React, Typescript and Webpack for a new project.",
   "main": "scaffold.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sattinos/react-typescript-webpack-scaffolder.git"
+  },
+  "bin": {
+    "react-typescript-webpack-scaffolder": "./index.js"
   },
   "keywords": [
     "scaffolder",

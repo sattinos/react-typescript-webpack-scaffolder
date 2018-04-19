@@ -12,19 +12,21 @@ for any modification in the source files. The main reason for this crash is a co
 Another example, the ExtractTextWebpackPlugin is broken in Webpack v4.
 The Scaffolder will take care of that, and the generated project will work with no issues.
 
-Prerequisites:
-==============
+## Prerequisites:
 Node 9.x
 
-Installation:
-=============
-npm i react-typescript-webpack-scaffolder -D
+## Installation:
+`As a global package: `
+```sh
+    npm i react-typescript-webpack-scaffolder -g
+```
 
-How to use:
-===========
-const scaffold = require('react-typescript-webpack-scaffolder');<br />
-scaffold();
-<br />
+
+## How to use:
+```sh
+    cd some-empty-folder
+    react-typescript-webpack-scaffolder
+```
 
 Currently, the scaffolder supports Webpack 4 only.
 The generated project will contain the functionality:
@@ -35,10 +37,11 @@ The generated project will contain the functionality:
 5. Running in watch mode (Webpack dev server)
 
 Once the script is finished, you can use the commands:
-
-npm run devBuild      // to build in dev mode<br />
-npm run prodBuild     // to build in production mode<br />
-npm run serve         // to run webpack dev server in watch mode<br /><br />
+```sh
+npm run build:dev      # to build in dev mode
+npm run build:prod     # to build in production mode
+npm run serve          # to run webpack dev server in watch mode
+```
 Remember: If you want to do something twice then automate it.
 
 Enjoy!
