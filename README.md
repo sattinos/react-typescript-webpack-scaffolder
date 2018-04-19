@@ -16,13 +16,15 @@ Prerequisites:
 ==============
 Node 9.x
 
+Installation:
+=============
+npm i react-typescript-webpack-scaffolder -D
 
 How to use:
 ===========
-1. Clone the repository into empty folder.
-2. From bash shell run: 
-node scaffold-ts.rt.js
-
+const scaffold = require('react-typescript-webpack-scaffolder');<br />
+scaffold();
+<br />
 
 Currently, the scaffolder supports Webpack 4 only.
 The generated project will contain the functionality:
@@ -32,12 +34,11 @@ The generated project will contain the functionality:
 4. Producing production build.
 5. Running in watch mode (Webpack dev server)
 
-
 Once the script is finished, you can use the commands:
 
 npm run devBuild      // to build in dev mode<br />
 npm run prodBuild     // to build in production mode<br />
-npm run serve         // to run webpack dev server in watch mode<br />
+npm run serve         // to run webpack dev server in watch mode<br /><br />
 Remember: If you want to do something twice then automate it.
 
 Enjoy!

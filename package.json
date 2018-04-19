@@ -1,11 +1,8 @@
 {
   "name": "react-typescript-webpack-scaffolder",
-  "version": "1.0.17",
-  "description": "[![rt_TS.png](https://s7.postimg.org/o7rbrc97v/rt_TS.png)](https://postimg.org/image/a1bkw3ycn/)",
-  "main": "scaffold-ts-rt.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.19",
+  "description": "react-typescript-webpack-scaffolder is a cross-platform (windows/mac/linux) node.js script that sets up React, Typescript and Webpack for a new project.",
+  "main": "scaffold.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sattinos/react-typescript-webpack-scaffolder.git"
@@ -18,8 +15,11 @@
     "react scaffolder",
     "react, typescript and webpack scaffolder"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Mahmoud AlSati",
+    "email": "mahmoud.alsati@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sattinos/react-typescript-webpack-scaffolder/issues"
   },
